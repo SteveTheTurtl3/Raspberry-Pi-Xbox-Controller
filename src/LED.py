@@ -1,3 +1,4 @@
+#sets up the LEDs and tests them
 import RPi.GPIO as GPIO
 import time
 LED_PIN = 18

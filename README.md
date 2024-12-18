@@ -12,7 +12,7 @@
     This project leverages the power of a Raspberry Pi, Python programming, and the evdev library to create a wireless control interface for a soldering machine using an Xbox controller.
   </p>
     <p>
-    This is a project my sister and I worked on for my grandfathers machining company.
+    This is a project my brother and I worked on for a local machining company.
     </p>
 </div>
 
@@ -65,7 +65,7 @@ The aim of this project is to enable users to remotely control a soldering machi
 <!-- CONTACT -->
 ## Contact
 
-* Talia Kumar - talia_kumar@mines.edu
+* Talia Kumar - https://www.linkedin.com/in/talia-kumar-83b948279/ - talia_kumar@mines.edu
 * Caleb Kumar - https://www.linkedin.com/in/caleb-k-0232b719b/ - caleb.kumar@colorado.edu
 
 * Project Link: [https://cekcreator/RaspberryPi_XboxController](https://cekcreator/RaspberryPi_XboxController)
@@ -77,7 +77,7 @@ The aim of this project is to enable users to remotely control a soldering machi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Talia Kumar]()
+	* [Talia Kumar]()
 * [Caleb Kumar]()
 
 

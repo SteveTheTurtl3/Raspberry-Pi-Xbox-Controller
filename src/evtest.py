@@ -37,6 +37,9 @@ from evdev import ecodes, list_devices, AbsInfo, InputDevice
 
 
 def parseopt():
+    """
+    parses commandline arguments
+    """
     parser = optparse.OptionParser(add_help_option=False)
     parser.add_option('-h', '--help', action='store_true')
     parser.add_option('-g', '--grab', action='store_true')
@@ -120,6 +123,9 @@ def select_devices(device_dir='/dev/input'):
 
 
 def print_capabilities(device):
+    """
+    prints information about which LED is currently on and the keys pressed to cause it
+    """
     capabilities = device.capabilities(verbose=True)
     input_props = device.input_props(verbose=True)
 
@@ -156,6 +162,9 @@ def print_capabilities(device):
 
 
 def print_event(e):
+    """
+    prints information about the event window for the LED lights and the current events running
+    """
     if e.type == ecodes.EV_SYN:
         if e.code == ecodes.SYN_MT_REPORT:
             msg = 'time {:<16} +++++++++ {} ++++++++'
@@ -173,6 +182,9 @@ def print_event(e):
 
 
 def toggle_tty_echo(fh, enable=True):
+    """
+    i/o control for a terminal 
+    """
     flags = termios.tcgetattr(fh.fileno())
     if enable:
         flags[3] |= termios.ECHO

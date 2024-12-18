@@ -1,4 +1,4 @@
-
+#sets up the LED and routes power to the right place
 from evdev import InputDevice, categorize, ecodes, KeyEvent
 import RPi.GPIO as GPIO
 import time
